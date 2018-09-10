@@ -12,8 +12,10 @@ public class TwoIntegersRunner
 		TwoInteger twointeger = new TwoInteger(num1, num2);
 		String a = twointeger.arithmetic();
 		System.out.println(a);
-		
-
+		int b = twointeger.larger();
+		System.out.println(b + " Is the larger number.");
+		boolean c = twointeger.isEven();
+		System.out.println(num1 + " is a multiple of " + num2 + ": " + c);
 			
 			
 	}
