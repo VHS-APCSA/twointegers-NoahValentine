@@ -15,7 +15,9 @@ public class TwoIntegersRunner
 		int b = twointeger.larger();
 		System.out.println(b + " Is the larger number.");
 		boolean c = twointeger.isEven();
-		System.out.println(num1 + " is a multiple of " + num2 + ": " + c);
+		System.out.println( num1 + " + " + num2 + " is even: " + c);
+		boolean d = twointeger.multiple();
+		System.out.println(num1 + " is a multiple of " + num2 + ": " + d);
 			
 			
 	}

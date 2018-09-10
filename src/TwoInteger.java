@@ -51,7 +51,7 @@ public class TwoInteger
 	}
 	public boolean isEven()
 	{
-		if(num1 + num2 % 2 == 0)
+		if(num1 + num2 / 2 == 0)
 		{
 			return true;
 		}
